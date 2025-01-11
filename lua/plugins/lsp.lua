@@ -1,6 +1,7 @@
 return {
   -- Main LSP Configuration
   'neovim/nvim-lspconfig',
+  'hrsh7th/nvim-cmp',
   dependencies = {
     -- Automatically install LSPs and related tools to stdpath for Neovim
     { 'williamboman/mason.nvim', config = true }, -- NOTE: Must be loaded before dependants
