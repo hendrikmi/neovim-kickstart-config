@@ -61,12 +61,12 @@ return {
           file_ignore_patterns = { 'node_modules', '.git', '.venv' },
           hidden = true,
         },
-      },
-      live_grep = {
-        file_ignore_patterns = { 'node_modules', '.git', '.venv' },
-        additional_args = function(_)
-          return { '--hidden' }
-        end,
+        live_grep = {
+          file_ignore_patterns = { 'node_modules', '.git', '.venv' },
+          additional_args = function(_)
+            return { '--hidden' }
+          end,
+        },
       },
       extensions = {
         ['ui-select'] = {
